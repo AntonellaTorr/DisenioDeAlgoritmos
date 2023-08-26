@@ -1,0 +1,24 @@
+1)Grafo con un circuito hamiltoniano pero sin un circuito euleriano
+A --- B
+|\    |
+| \   |
+|  \  |
+|   \ |
+C --- D
+Existe un circuito Hamiltoniano: A -> B -> D -> C -> A. Puedes recorrer todos los vértices exactamente una vez y volver al vértice inicial.
+No existe un circuito Euleriano. Para que un grafo no dirigido tenga un circuito Euleriano, todos sus vértices deben tener grado par. En este grafo, los vértices A y C tienen grado impar (3), lo que hace imposible tener un circuito Euleriano.
+2)2. Grafo con un circuito euleriano pero sin un circuito hamiltoniano
+Imposible? por que si pasas por todas las aristas inevitablemente vas a pasar por todos 
+los vertices 
+NO SE BIEN CHEQEAR DSP 
+3)
+A -- B
+|    |
+D -- C
+Existe un circuito Hamiltoniano: A -> B -> C -> D -> A. Puedes recorrer todos los vértices exactamente una vez y regresar al vértice de inicio.
+Existe un circuito Euleriano: A -> B -> C -> D -> A. Puedes recorrer todas las aristas exactamente una vez y regresar al vértice de inicio.
+4) 
+
+
+
+
