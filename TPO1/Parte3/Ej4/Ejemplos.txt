@@ -1,4 +1,4 @@
-Eulerian Cycle: visita cada vertice solo una vez y requiere que todos los vertices tengan 
+Ciclo Euleriano: visita cada vertice solo una vez y requiere que todos los vertices tengan 
 grado par. 
 Ciclo Hamiltoneano: visita cada nodo solo una vez. 
 
