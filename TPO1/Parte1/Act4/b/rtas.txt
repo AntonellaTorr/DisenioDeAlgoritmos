@@ -1,0 +1,12 @@
+Para hacer el analisis podemos diferenciar dos casos:
+1) i es una potencia exacta de 2: la operacion cuesta i por ende tendra un orden O(n)
+2) i no es potencia de 2. Tendra un eficiencia de O(1).
+
+Orden total del programa= O(n)+ O(1). 
+Con el metodo agregado podemos plantear lo siguiente:
+Costo amortizado= (O(n)+O(1))/n = O(1)
+
+
+
+
+

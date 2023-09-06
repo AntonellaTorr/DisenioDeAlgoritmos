@@ -1,0 +1,25 @@
+Tabla de saltos:
+A: 2
+B: 1
+C: 0
+
+
+Valor= longitud del texto-indice-1
+
+
+
+a) Mejor caso:
+Texto: "ABC XYZ DEF GHI JKL MNO PQR STU VWX "
+Patrón: "ABC"
+
+En este caso, el patrón "ABC" está al inicio del exto. El algoritmo Horspool solo tiene que comparar el último carácter del patrón con el último carácter del texto y encontrar una coincidencia. No habrá saltos y la búsqueda se completará en un solo paso.
+La eficiencia sería lineal, O(n), donde "n" es la longitud del texto.
+
+
+
+b) Peor caso:
+Texto: "XYZ DEF GHI JKL MNO PQR STU VWX"
+Patrón: "ABC"
+
+En este caso, el patrón "ABC" no está presente en el texto. El algoritmo Horspool tendrá que recorrer todo el texto para llegar a la conclusión de que no hay ocurrencias del patrón. En cada posición, se aplicará el salto máximo definido por la tabla de saltos antes de continuar la comparación.
+Habria que comparar todos los caracteres del patrón con cada posición en el texto antes de concluir que no hay ocurrencias. En este caso, la eficiencia sería O(n * m), donde "n" es la longitud del texto y "m" es la longitud del patrón.
